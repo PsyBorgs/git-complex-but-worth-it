@@ -1,10 +1,10 @@
 SLIDES_MD = presentation.md
-GENERATED_SLIDES = 'index.html'
+GENERATED_SLIDES = index.html
 
 PWD = $(shell pwd)
 SHELL = /bin/bash
 
-REVEALJS_VERSION = 3.2.0
+REVEALJS_VERSION = 2.6.2
 REVEALJS_DIR = reveal.js
 REVEALJS_FILENAME = $(REVEALJS_VERSION).tar.gz
 REVEALJS_THEME = solarized
@@ -31,11 +31,11 @@ get_revealjs:
 	mv ./reveal.js-$(REVEALJS_VERSION) ./$(REVEALJS_DIR)
 
 slideshow:
-	pandoc --standalone --smart --to=revealjs --slide-level 3 \
-		--variable revealjs-url:$(REVEALJS_DIR) \
+	pandoc --standalone --smart --to=revealjs \
+		--variable revealjs-url:. \
 		--variable theme:$(REVEALJS_THEME) \
 		--variable center:false \
-		 $(SLIDES_MD) -o $(GENERATED_SLIDES)
+		 $(SLIDES_MD) -o $(REVEALJS_DIR)/$(GENERATED_SLIDES)
 
 sync:
 	rsync \

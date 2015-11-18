@@ -73,6 +73,25 @@ A very powerful "Distributed Version Control System" that allows groups of peopl
 
 # Beyond the basics
 
+## Branching & merging
+
+Branches (git flow model):
+
+- master
+- develop
+- others:
+    - features
+    - bug fixes
+    - releases
+
+## Collaboration with Github
+
+- repository setup on your account
+- clone, fetch, pull, push
+- remote branches
+- forking other repositories
+    - pull requests
+
 ## GIT: GUI-based tools
 
 [Recommended GUIs for `git`](https://git-scm.com/downloads/guis)

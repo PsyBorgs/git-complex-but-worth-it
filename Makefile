@@ -42,6 +42,3 @@ sync:
 		-au --progress --compressed \
 		$(GENERATED_SLIDES) \
 		$(REMOTE_HOST):$(REMOTE_DIR)/.
-
-watch:
-	fswatch . "make slideshow"

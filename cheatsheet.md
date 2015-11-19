@@ -1,3 +1,7 @@
+# Installation
+
+Install `git` from the [official website](https://git-scm.com)
+
 # `git` commands
 
 Create a git repository in the current directory:

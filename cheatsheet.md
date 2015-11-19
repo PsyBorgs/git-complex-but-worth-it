@@ -10,7 +10,7 @@ Create a git repository in the current directory:
 
     git init
 
-Stage a file within your git directory (new or deleted; nb. change `<filename>` to your file's name!):
+Stage a file within your git directory (new or modified; nb. change `<filename>` to your file's name!):
 
     git add <filename>
 

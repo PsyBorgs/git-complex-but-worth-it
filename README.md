@@ -16,3 +16,5 @@ Run the following:
     make slideshow
 
 Then open `index.html` in a browser.
+
+For a cheatsheet covering what we've gone over in our lab meetings, open `cheatsheet.md`.

@@ -4,6 +4,8 @@ Install `git` from the [official website](https://git-scm.com)
 
 # `git` commands
 
+## Basic commands
+
 Create a git repository in the current directory:
 
     git init
@@ -27,3 +29,17 @@ Commit the local file changes that were staged:
 Show history of changes:
 
     git log
+
+## Beyond the basics
+
+Create a branch based on the current status of the present branch (nb. change `<branch_name>` to anything you want — perhaps `develop`):
+
+    git branch <branch_name>
+
+Switch to the branch you've just created:
+
+    git checkout <branch_name>
+
+**Bonus command:** Create a new branch and switch to it (with a single command; nb. the `-b`):
+
+    git checkout -b <branch_name>

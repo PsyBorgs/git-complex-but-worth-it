@@ -1,6 +1,7 @@
 # Installation
 
-Install `git` from the [official website](https://git-scm.com)
+Install `git` from the [official website](https://git-scm.com).
+See the [Pro Git book](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) (online documentation) if you get stuck.
 
 # `git` commands
 

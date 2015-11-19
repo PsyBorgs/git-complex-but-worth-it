@@ -1,10 +1,15 @@
 # git — complex, but worth it
 
+---
+
+Has anyone here tried or used `git`?
+
+
 # Git: A history
 
 ---
 
-Originally written and maintained by Linus Torvalds, who designed the first Linux kernel
+Originally written and maintained by Linus Torvalds , who designed the first Linux kernel
 
 ![All-around Nice Guy™](../media/linus-eff-you.png)
 

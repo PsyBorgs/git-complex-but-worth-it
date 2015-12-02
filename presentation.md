@@ -78,27 +78,52 @@ A very powerful "Distributed Version Control System" that allows groups of peopl
 
 # Beyond the basics
 
-## Branching & merging
-
-Branches (git flow model):
-
-- master
-- develop
-- others:
-    - features
-    - bug fixes
-    - releases
-
-## Collaboration with Github
-
-- repository setup on your account
-- clone, fetch, pull, push
-- remote branches
-- forking other repositories
-    - pull requests
-
 ## GIT: GUI-based tools
 
 [Recommended GUIs for `git`](https://git-scm.com/downloads/guis)
 
 - I really like [SourceTree](http://www.sourcetreeapp.com/)
+- [Github Desktop](https://desktop.github.com) is nice, too!
+
+## Branching & merging
+
+Branches (Github flow model):
+
+- master
+- develop
+- shane-contrib
+
+Try the Github Desktop tutorial
+
+## Interacting with Github
+
+- repository setup on your account
+- clone, pull (get update), push (send update)
+- remote branches
+
+## Contributing socially
+
+- forking other repositories
+- pull requests
+    - add documentation, fix bugs, new features
+    - your code is reviewed by the repo admin
+
+## Contribute to PsyBorgs repos, too!
+
+- submit blog posts to [our new website](http://psyborgs.github.io)!
+
+## Other ways to participate
+
+### "Watch" a repository
+
+- subscribing to updates
+    - notifications of new pull requests or issues
+    - get notifications in your Github feed
+- displaying your interest
+
+## Other modes of participation
+
+### "Star" a repository
+
+- like a bookmark
+- no notifications
